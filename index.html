@@ -123,6 +123,10 @@
   a.inline{color:var(--blue);text-decoration:none;border-bottom:1px solid transparent}
   a.inline:hover{border-color:var(--blue)}
   @media(max-width:560px){h1{font-size:26px}summary .teaser{display:none}}
+  .suggest{text-align:center;margin:26px 0 4px}
+  .suggest a{display:inline-flex;align-items:center;gap:9px;background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;font-family:"Space Grotesk",Inter,sans-serif;font-weight:600;font-size:15px;text-decoration:none;padding:12px 22px;border-radius:12px;box-shadow:0 6px 18px rgba(28,108,181,.28);transition:transform .14s,box-shadow .14s}
+  .suggest a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(28,108,181,.34)}
+  .suggest .cap{display:block;color:var(--muted);font-size:12px;margin-top:8px}
 </style>
 </head>
 <body>
@@ -419,6 +423,14 @@
       </div>
     </div>
   </details>
+
+  <div class="suggest">
+    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=O7pL-a7I7kmfR0yb90lCr_V9qzN39dVAjzmCojtFcQFURUEyUVFITUNHNjUyVEVNSTJaQTZTOFBWQS4u" target="_blank" rel="noopener">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a7 7 0 0 0-4 12.7V18h8v-2.3A7 7 0 0 0 12 3z"/><path d="M9 21h6"/></svg>
+      Have an idea? Suggest a topic or tool
+    </a>
+    <span class="cap">Want us to dig into something, or have a tech idea? We read every one.</span>
+  </div>
 
   <div class="sources">
     <b>Sources this week:</b> anthropic.com, deepmind.google, openai.com, microsoft.com/copilot (AI models) ·
